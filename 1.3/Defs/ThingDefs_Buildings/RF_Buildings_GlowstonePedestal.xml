@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RF_GlowstonePedestal</defName>
+    <label>glowstone pedestal</label>
+    <description>A beautiful, magically charged citrine within a carefully crafted pedestal which lights up an area.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Furniture/RF_GlowstonePedestal/RF_GlowstonePedestal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>175</MaxHitPoints>
+      <Beauty>3</Beauty>
+      <WorkToBuild>330</WorkToBuild>
+      <Mass>4.5</Mass>
+    </statBases>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+      <RF_RoughCitrine>30</RF_RoughCitrine>
+    </costList>
+    <building>
+    	<isEdifice>false</isEdifice>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius> <!--Standing lamp is 12-->
+        <glowColor>(255,255,149,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>90</wickTicks>
+        <explosiveRadius>3</explosiveRadius>
+        <explosiveDamageType>RF_CitrineFlame_MediumSquare</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
+        <postExplosionSpawnThingDef>RF_RubbleCitrineShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <researchPrerequisites>
+      <li>RF_MagicalLighting</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

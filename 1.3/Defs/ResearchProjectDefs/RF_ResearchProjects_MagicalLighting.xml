@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RF_MagicalLighting</defName>
+    <label>magical lighting</label>
+    <description>Infuse rough gemstones with magic to create light.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RF_MedievalGemCutting</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.00</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
