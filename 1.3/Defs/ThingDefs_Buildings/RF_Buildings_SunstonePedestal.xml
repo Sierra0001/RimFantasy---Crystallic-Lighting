@@ -38,7 +38,7 @@
     <resourcesFractionWhenDeconstructed>0.15</resourcesFractionWhenDeconstructed>
     <comps>
       <li Class="CompProperties_Glower">
-        <overlightRadius>5.0</overlightRadius> <!--Sun lamp is 7.0-->
+        <overlightRadius>6.0</overlightRadius> <!--Sun lamp is 7.0-->
         <glowRadius>10</glowRadius> <!--Sun lamp is 14-->
         <glowColor>(370,370,370,0)</glowColor>
       </li>
