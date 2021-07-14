@@ -4,14 +4,15 @@
   <ResearchProjectDef>
     <defName>RF_MagicalLighting</defName>
     <label>magical lighting</label>
+    <tab>RF_RimFantasy</tab>
     <description>Infuse rough gemstones with magic to create light.</description>
-    <baseCost>400</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>RF_MedievalGemCutting</li>
     </prerequisites>
-    <researchViewX>2.00</researchViewX>
-    <researchViewY>4.00</researchViewY>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
