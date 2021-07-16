@@ -43,6 +43,7 @@
         <glowColor>(370,370,370,0)</glowColor>
       </li>
       <li Class="CompProperties_Schedule"> <!-- Close to plant growing times with an extra half an hour -->
+        <compClass>RimFantasy.CompScheduleTickNormal</compClass>
         <startTime>0.20</startTime> <!-- 0.25 for Sun Lamp -->
         <endTime>0.85</endTime> <!-- 0.8 for Sun Lamp -->
         <offMessage>Recovering energy for the next release period</offMessage>
@@ -52,7 +53,8 @@
         <heatPerSecond>3</heatPerSecond>
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>90</wickTicks>
+        <compClass>RimFantasy.CompExplosiveTickRare</compClass>
+        <wickTicks>60</wickTicks>
         <explosiveRadius>3</explosiveRadius>
         <explosiveDamageType>RF_DiamondFlame_MediumSquare</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
