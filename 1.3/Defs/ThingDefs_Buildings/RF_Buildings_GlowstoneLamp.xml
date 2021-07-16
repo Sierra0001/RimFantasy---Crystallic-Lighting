@@ -68,10 +68,10 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>
         <explosiveRadius>2</explosiveRadius>
-        <explosiveDamageType>RF_CitrineFlame_SmallSquare</explosiveDamageType>
+        <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
-        <postExplosionSpawnThingDef>RF_RubbleCitrineShards</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
     </comps>
