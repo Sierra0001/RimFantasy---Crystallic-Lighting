@@ -1,23 +1,25 @@
 # RimFantasy - Crystallic Lighting
 
-This mod adds 2 new magical gemstone pedestals that radiates light into their surroundings.
+This mod adds a number of new magical gemstone furnitures that radiates light into their surroundings.
 
-These pedestals are safe to place under the rain and are quite beautiful to look at. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a small explosion.
+These furnitures are safe to place under the rain and are quite beautiful to look at. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a small explosion.
 
 ### Features
 
+- 1 Lamp (General lighting)
 - 2 Pedestals (Plant growing/General lighting)
 - 1 Research
 
 ### Balance
 
-Gems are intentionally sparse and not easy to obtain through natural means, but can be obtained through trades and from salvaging certain objects.
+Gems are intentionally sparse and not easy to obtain through natural means, but they can also be purchased from traders or obtained from salvaging certain objects.
 
 Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Compatibility
 
 - Save Game Compatible
+- Will not play nice with other gemstone mods without a patch.
 
 ### Links
 
