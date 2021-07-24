@@ -23,9 +23,9 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0003/RimFantasy---Crystallic-Lighting/releases/tag/v0.1-b.1)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting/releases/tag/v1.0)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
-- [GitHub](https://github.com/Sierra0003/RimFantasy---Crystallic-Lighting)
+- [GitHub](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting)
 
 ### Credits
 
@@ -33,4 +33,5 @@ SirLalaPyon for his amazing, high-quality vanilla styled art.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v0.1-b.1)
+- [RimWorld 1.3] RimWorld 1.3 Ready. (v1.0)
+- [Release] Initial release. (v1.0)
