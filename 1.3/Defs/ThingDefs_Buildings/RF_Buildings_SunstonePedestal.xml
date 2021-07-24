@@ -10,13 +10,14 @@
       <texPath>Things/Building/Furniture/RF_SunstonePedestal/RF_SunstonePedestal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawOffset>(0,0,0.10)</drawOffset>
     </graphicData>
     <blockWind>true</blockWind>
     <tickerType>Normal</tickerType>
     <statBases>
       <MaxHitPoints>175</MaxHitPoints>
       <Beauty>3</Beauty>
-      <WorkToBuild>350</WorkToBuild>
+      <WorkToBuild>540</WorkToBuild>
       <Mass>4.5</Mass>
     </statBases>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
@@ -25,9 +26,9 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>40</costStuffCount>
     <costList>
-      <RF_RoughDiamond>30</RF_RoughDiamond>
+      <RF_RoughDiamond>24</RF_RoughDiamond>
     </costList>
     <building>
     	<isEdifice>false</isEdifice>
@@ -53,12 +54,11 @@
         <heatPerSecond>3</heatPerSecond>
       </li>
       <li Class="CompProperties_Explosive">
-        <compClass>RimFantasy.CompExplosiveTickRare</compClass>
-        <wickTicks>60</wickTicks>
+        <wickTicks>90</wickTicks>
         <explosiveRadius>3</explosiveRadius>
         <explosiveDamageType>RF_Flame_MediumSquareRF_Diamond</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
-        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
+        <postExplosionSpawnChance>0.15</postExplosionSpawnChance>
         <postExplosionSpawnThingDef>RF_RubbleShardsRF_Diamond</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>

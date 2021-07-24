@@ -13,7 +13,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawRotated>false</drawRotated>
       <drawSize>(0.8,0.8)</drawSize>
-      <drawOffset>(0,0,0.05)</drawOffset>
+      <drawOffset>(0,0,0)</drawOffset>
       <allowFlip>true</allowFlip>
       <shadowData>
         <volume>(0.1,0.1,0.1)</volume> <!--This requires testing. -->
@@ -32,10 +32,9 @@
     <fillPercent>0</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <Beauty>3</Beauty>
+      <Beauty>2</Beauty>
       <Mass>1</Mass>
-      <WorkToBuild>120</WorkToBuild>
-      <Flammability>0</Flammability>
+      <WorkToBuild>450</WorkToBuild>
     </statBases>
     <selectable>true</selectable>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
@@ -46,7 +45,7 @@
     </stuffCategories>
     <costStuffCount>10</costStuffCount>
     <costList>
-      <RF_RoughCitrine>9</RF_RoughCitrine>
+      <RF_RoughCitrine>10</RF_RoughCitrine>
     </costList>
     <building>
     	<isEdifice>false</isEdifice>
@@ -58,7 +57,7 @@
     <clearBuildingArea>false</clearBuildingArea>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>7</glowRadius>
+        <glowRadius>6</glowRadius>
         <glowColor>(255,255,149,0)</glowColor> <!--20% reduction of original-->
       </li>
       <li Class="CompProperties_HeatPusher">
@@ -66,11 +65,11 @@
         <heatPerSecond>1</heatPerSecond>
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>90</wickTicks>
-        <explosiveRadius>2</explosiveRadius>
+        <wickTicks>60</wickTicks>
+        <explosiveRadius>1</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
-        <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+        <postExplosionSpawnChance>0.25</postExplosionSpawnChance>
         <postExplosionSpawnThingDef>RF_RubbleShardsRF_Citrine</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
       </li>
@@ -81,7 +80,7 @@
       <li>BuildingsFurniture</li>
     </thingCategories>
     <researchPrerequisites>
-      <li>RF_MagicalLighting</li> <!--Insert custom research when available-->
+      <li>RF_MagicalLighting</li>
     </researchPrerequisites>
   </ThingDef>
 
