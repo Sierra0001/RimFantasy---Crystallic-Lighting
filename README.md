@@ -1,8 +1,8 @@
 # RimFantasy - Crystallic Lighting
 
-This mod adds a number of new magical gemstone furnitures that radiates light into their surroundings.
+This mod adds a number of new magical gemstone furniture that radiates light into their surroundings.
 
-These furnitures are safe to place under the rain and are quite beautiful to look at. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a small explosion.
+These furniture are safe to place under the rain and are quite beautiful to look at. Be careful though, the energies within the crystals are barely contained and excessive damage will produce a small explosion.
 
 ### Features
 
@@ -24,12 +24,13 @@ Balance feedbacks are welcomed, please provide context when doing so.
 ### Links
 
 - [Current Version](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting)
 
 ### Credits
 
 SirLalaPyon for his amazing, high-quality vanilla styled art.
+Steve o.O for his assistance in brainstorming texture issues.
 
 ### Latest Changes
 
