@@ -6,8 +6,8 @@ These furniture are safe to place under the rain and are quite beautiful to look
 
 ### Features
 
-- 1 Lamp (General lighting)
-- 2 Pedestals (Plant growing/General lighting)
+- 2 Lamp (General lighting)
+- 3 Pedestals (Plant growing/General lighting)
 - 1 Research
 
 ### Balance
@@ -23,7 +23,7 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting/releases/tag/v1.0)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting/releases/tag/v1.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---Crystallic-Lighting)
 
@@ -34,5 +34,7 @@ Steve o.O for his assistance in brainstorming texture issues.
 
 ### Latest Changes
 
-- [RimWorld 1.3] RimWorld 1.3 Ready. (v1.0)
-- [Release] Initial release. (v1.0)
+-[New] Darklight lamp. (v1.1)
+-[New] Darklight pedestal. (v1.1)
+-[Change] Sunstone pedestal heatPerSecond reduced from 3 to 2. (v1.1)
+-[Change] Glowstone pedestal heatPerSecond reduced from 2 to 1.5. (v1.1)
