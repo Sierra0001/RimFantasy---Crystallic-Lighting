@@ -21,7 +21,7 @@
 		<li>Sierra.RF.Gemstones</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.0[/h1]
+[h1]Mod Version: v1.1[/h1]
 
 
 This mod adds a number of magical furniture that radiates light into their surroundings.
@@ -31,8 +31,8 @@ These furniture are safe to place under the rain and are quite beautiful to look
 
 [b]Features:[/b]
 [list]
-[*]1 Lamp (General lighting)
-[*]2 Pedestals (Plant growing/General lighting)
+[*]2 Lamp (General lighting)
+[*]3 Pedestals (Plant growing/General lighting)
 [*]1 Research
 [/list]
 
@@ -41,7 +41,7 @@ These furniture are safe to place under the rain and are quite beautiful to look
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy - Gemstones[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287]RimFantasy - Temperature Regulation[/url]
-[*]RimFantasy - Arcane Batons Coming Soon™
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287]RimFantasy - Arcane Batons Coming[/url]
 [*]RimFantasy - Arcane Weapons Coming Soon™
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
@@ -82,6 +82,13 @@ Balance feedbacks are welcomed, please provide context when doing so.
 [list]
 [*][RimWorld 1.3] RimWorld 1.3 Ready.
 [*][Release] Initial release.
+[/list]
+
+
+[b]v1.1[/b]
+[list]
+[*][New] Darklight lamp.
+[*][New] Darklight pedestal.
 [/list]
 	</description>
 </ModMetaData>

@@ -44,7 +44,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>2</heatPerSecond>
+        <heatPerSecond>1.5</heatPerSecond>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>
