@@ -37,4 +37,4 @@ Steve o.O for his assistance in brainstorming texture issues.
 -[New] Darklight lamp. (v1.1)
 -[New] Darklight pedestal. (v1.1)
 -[Change] Sunstone pedestal heatPerSecond reduced from 3 to 2. (v1.1)
--[Change] Glowstone pedestal heatPerSecond reduced from 2 to 1.5. (v1.1)
+-[Change] Glowstone pedestal heatPerSecond reduced from 2 to 1. (v1.1)
