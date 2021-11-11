@@ -12,6 +12,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawOffset>(0,0,0.10)</drawOffset>
     </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
     <blockWind>true</blockWind>
     <tickerType>Normal</tickerType>
     <statBases>
