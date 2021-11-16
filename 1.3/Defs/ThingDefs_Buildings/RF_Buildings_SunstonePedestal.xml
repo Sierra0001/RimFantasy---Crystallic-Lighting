@@ -13,6 +13,8 @@
       <drawOffset>(0,0,0.10)</drawOffset>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
     <blockWind>true</blockWind>
     <tickerType>Normal</tickerType>
     <statBases>
@@ -29,10 +31,10 @@
     </stuffCategories>
     <costStuffCount>40</costStuffCount>
     <costList>
-      <RF_RoughDiamond>24</RF_RoughDiamond>
+      <RF_RoughDiamond>22</RF_RoughDiamond>
     </costList>
     <building>
-    	<isEdifice>false</isEdifice>
+    	<isEdifice>true</isEdifice>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -53,6 +55,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>2</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>

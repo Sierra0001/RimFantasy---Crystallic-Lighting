@@ -14,7 +14,6 @@
       <drawRotated>false</drawRotated>
       <drawSize>(0.8,0.8)</drawSize>
       <drawOffset>(0,0,0)</drawOffset>
-      <allowFlip>true</allowFlip>
       <shadowData>
         <volume>(0.1,0.1,0.1)</volume> <!--This requires testing. -->
       </shadowData>
@@ -22,7 +21,7 @@
         <rect>(0.2,0,0.6,0.1)</rect> <!--This requires testing. -->
       </damageData>
     </graphicData>
-    <rotatable>true</rotatable>
+    <rotatable>false</rotatable>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>Standable</passability> <!--Either Standable, PassThroughOnly or Impossable. -->
     <!--<pathCost>30</pathCost>--> <!--Not necessary with Standable or Impossable. -->
@@ -45,7 +44,7 @@
     </stuffCategories>
     <costStuffCount>10</costStuffCount>
     <costList>
-      <RF_RoughCitrine>10</RF_RoughCitrine>
+      <RF_RoughCitrine>14</RF_RoughCitrine>
     </costList>
     <building>
     	<isEdifice>false</isEdifice>
@@ -63,10 +62,11 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>1</heatPerSecond>
+        <heatPushMaxTemperature>22</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>60</wickTicks>
-        <explosiveRadius>1</explosiveRadius>
+        <explosiveRadius>2</explosiveRadius>
         <explosiveDamageType>RF_Flame_SmallSquareRF_Citrine</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
         <postExplosionSpawnChance>0.25</postExplosionSpawnChance>

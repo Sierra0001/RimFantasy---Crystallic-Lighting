@@ -28,10 +28,10 @@
     </stuffCategories>
     <costStuffCount>40</costStuffCount>
     <costList>
-      <RF_RoughSapphire>24</RF_RoughSapphire>
+      <RF_RoughSapphire>22</RF_RoughSapphire>
     </costList>
     <building>
-    	<isEdifice>false</isEdifice>
+    	<isEdifice>true</isEdifice>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -45,6 +45,7 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>1.5</heatPerSecond>
+        <heatPushMaxTemperature>26</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>90</wickTicks>
