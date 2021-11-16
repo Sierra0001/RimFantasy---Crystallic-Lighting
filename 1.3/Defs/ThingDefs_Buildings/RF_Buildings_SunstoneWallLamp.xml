@@ -11,11 +11,13 @@
       <texPath>Things/Building/Furniture/RF_VE_SunstoneWallLamp/RF_VE_SunstoneWallLamp</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.1,1.1</drawSize>
+      <drawSize>1,1</drawSize> <!-- Was 1.1 -->
       <drawOffsetNorth>(0,0,0.383)</drawOffsetNorth>
       <drawOffsetSouth>(0,0,-0.20)</drawOffsetSouth>
-      <drawOffsetEast>(0.4,0,0.20)</drawOffsetEast>
-      <drawOffsetWest>(-0.4,0,0.20)</drawOffsetWest>
+      <drawOffsetEast>(0,0,0)</drawOffsetEast>
+      <drawOffsetWest>(0,0,0)</drawOffsetWest>
+      <!--<drawOffsetEast>(0.4,0,0.20)</drawOffsetEast>
+      <drawOffsetWest>(-0.4,0,0.20)</drawOffsetWest>-->
     </graphicData>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <passability>Standable</passability>
@@ -33,7 +35,7 @@
       <li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
     </placeWorkers>
     <costList>
-      <RF_RoughCitrine>10</RF_RoughCitrine>
+      <RF_RoughDiamond>10</RF_RoughDiamond>
     </costList>
     <defaultPlacingRot>South</defaultPlacingRot>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -85,7 +87,5 @@
       <li>RF_MagicalLighting</li>
     </researchPrerequisites>
   </ThingDef>
-
-
 
 </Defs>
