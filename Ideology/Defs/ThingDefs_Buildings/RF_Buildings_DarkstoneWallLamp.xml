@@ -22,8 +22,9 @@
     <tickerType>Normal</tickerType>
     <fillPercent>0.20</fillPercent>
     <statBases>
-      <MaxHitPoints>10</MaxHitPoints>
-      <WorkToBuild>100</WorkToBuild>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <WorkToBuild>350</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Mass>2</Mass>
     </statBases>
@@ -32,7 +33,7 @@
       <li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
     </placeWorkers>
     <costList>
-      <RF_RoughCitrine>1</RF_RoughCitrine>
+      <RF_RoughSapphire>10</RF_RoughSapphire>
     </costList>
     <defaultPlacingRot>South</defaultPlacingRot>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
