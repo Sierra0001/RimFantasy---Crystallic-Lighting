@@ -6,6 +6,7 @@
 	<url></url>
 	<supportedVersions>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -23,11 +24,13 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Sierra.RF.Gemstones</li>
+		<li>Ludeon.RimWorld.Biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Sierra.RF.Gemstones</li>
 	</loadAfter>
 	<description>
-[h1]Mod Version: v1.2[/h1]
+[h1]Mod Version: v1.3[/h1]
+[h1][i]Caution: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url] users should consider using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836791007]RimFantasy - Medieval Overhaul Edition[/url] instead of this mod.[/i][/h1]
 
 
 This mod adds a number of magical furniture that radiates light into their surroundings.
@@ -63,16 +66,8 @@ These furniture are safe to place under the rain and are quite beautiful to look
 [*]Save Game Compatible
 [*]Will not play nice with other gemstone mods without a patch.
 [/list]
-[i]Dr Zhivago's [b]DocUniversalResources[/b] (DUR) will address resource overlaps for mod compatibility when it is finished.[/i]
 
 
-[b]Balance:[/b]
-Gems are intentionally sparse and not easy to obtain through natural means, but they can also be purchased from traders or obtained from salvaging certain objects.
-
-Balance feedbacks are welcomed, please provide context when doing so.
-
-
-[h1][url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url][/h1]
 [url=https://ko-fi.com/sierra0001][img]https://i.imgur.com/SBiUpbW.png[/img][/url]
 
 
@@ -81,38 +76,22 @@ Balance feedbacks are welcomed, please provide context when doing so.
 [*]SirLalaPyon for his amazing, high quality vanilla styled art.
 [*]Steve o.O for the new wall lamp textures.
 [*]Vanilla Expanded Team for the better wall lamp code.
+[*]Mascot inspired and based on Geneforge by Spiderweb Software (Go play the series, it's great).
 [/list]
 
 
 (CC BY-NC-ND 4.0)
 
 
-[h1]Latest Changes:[/h1]
-[b]v1.1[/b]
-[list]
-[*][New] Darkstone lamp.
-[*][New] Darkstone pedestal.
-[*][Change] Sunstone pedestal heatPerSecond reduced from 3 to 2.
-[*][Change] Glowstone pedestal heatPerSecond reduced from 2 to 1.
-[/list]
+[h1]Troubleshooting &#38; Bug Reports:[/h1]
+Join the Discord (link below) for troubleshooting and bug reports. Steam is a terrible platform for support and I will not be using it to deal with anything longer than a simple answer.
+[h1][url=https://discord.gg/rimworld][img]https://i.imgur.com/Y2Bdoia.gif[/img][/url][/h1]
 
-[b]v1.2[/b]
+
+[h1]Latest Changes:[/h1]
+[b]v1.3[/b]
 [list]
-[*][DEV] Added Vanilla Expanded Framework as mod prerequisite.
-[*][New] Sunstone wall lamp.
-[*][New] Glowstone wall lamp.
-[*][New] Darkstone wall lamp.
-[*][Fix] Sunstone pedestal can not longer be built in walls or on top of objects.
-[*][Fix] Glowstone pedestal can not longer be built in walls or on top of objects.
-[*][Fix] Darkstone pedestal can not longer be built in walls or on top of objects.
-[*][Change] Sunstone pedestal will no longer produce heat past 28 degrees.
-[*][Change] Glowstone pedestal will no longer produce heat past 26 degrees.
-[*][Change] Glowstone lamps will no longer produce heat past 22 degrees.
-[*][Buff] Sunstone pedestal build cost reduced from 24 rough diamond to 22.
-[*][Buff] Glowstone pedestal build cost reduced from 24 rough citrine to 22.
-[*][Buff] Darkstone pedestal build cost reduced from 24 rough sapphire to 22.
-[*][Nerf] Glowstone lamp build cost increased from 10 rough citrine to 14.
-[*][Nerf] Darkstone lamp build cost increased from 10 rough sapphire to 14.
+[*][RimWorld 1.4] RimWorld 1.4 Ready.
 [/list]
 	</description>
 </ModMetaData>
